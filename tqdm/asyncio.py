@@ -15,7 +15,7 @@ from .std import tqdm as std_tqdm
 __author__ = {"github.com/": ["casperdcl"]}
 __all__ = ['tqdm_asyncio', 'tarange', 'tqdm', 'trange']
 
-from typing import AsyncIterator, AsyncIterable, Iterable, TypeVar, Generic
+from typing import AsyncIterable, AsyncIterator, Generic, Iterable, TypeVar
 
 T = TypeVar('T')
 class tqdm_asyncio(Generic[T],std_tqdm[T]):

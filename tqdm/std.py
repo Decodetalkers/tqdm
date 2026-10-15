@@ -13,9 +13,9 @@ from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from numbers import Number
 from time import time
+from typing import Generic, Iterable, TypeVar
 from warnings import warn
 from weakref import WeakSet
-from typing import Iterable, TypeVar, Generic
 
 from ._monitor import TMonitor
 from .utils import (
